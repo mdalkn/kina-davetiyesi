@@ -162,7 +162,7 @@ p {
 }
 
 main {
-  padding-top: var(--header-height);
+  padding-top: 0;
 }
 
 /* ===== STICKY HEADER ===== */
@@ -570,12 +570,28 @@ main {
 }
 
 /* ===== ADDRESS ===== */
+/* ===== ADDRESS ===== */
 .address {
   font-style: normal;
   color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.9;
+  font-size: 1rem;
+  line-height: 1.8;
+  padding: var(--space-4);
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: var(--radius-md);
+  text-align: left;
 }
+
+.address strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--burgundy);
+  margin-bottom: var(--space-2);
+}
+
+
 
 .actions-row {
   display: flex;
@@ -730,6 +746,70 @@ select {
   margin-top: var(--space-3);
   flex-wrap: wrap;
 }
+
+/* ===== GIFT INFO & IBAN ===== */
+.gift-info {
+  margin: var(--space-4) 0;
+  padding: var(--space-4);
+  background: rgba(212, 175, 55, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: var(--radius-sm);
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gift-message {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-3);
+  text-align: center;
+}
+
+.iban-box {
+  background: var(--card);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  text-align: center;
+  margin: var(--space-3) 0;
+}
+
+.iban-number {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--burgundy);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-1);
+}
+
+.iban-name {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin: 0;
+}
+
+.gift-disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  margin: var(--space-2) 0 0;
+}
+
 
 /* ===== TOAST & MODAL ===== */
 .toast {
