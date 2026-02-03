@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Pelin & Musa | Kına Davetiyesi" />
+  <title>Pelin & Musa | Kına Davetiyesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">Pelin &amp; Musa</div>
+      <nav class="site-nav" aria-label="Ana menü">
+        <a href="#details">Detaylar</a>
+        <a href="#location">Konum</a>
+        <a href="#program">Program</a>
+        <a href="#rsvp">Katılım Formu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero: Split layout with portrait photo -->
+    <section id="hero" class="hero">
+      <div class="hero-bg" style="background-image: url('./kina-photo.jpg');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-container">
+        <div class="hero-text">
+          <p class="eyebrow">Özel Davet</p>
+          <h1>KINA DAVETİYESİ</h1>
+          <p class="names">Pelin &amp; Musa</p>
+          <p class="tagline">Katılımınız bizleri onurlandıracaktır.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#location">Konumu Aç</a>
+            <a class="btn btn-ghost" href="#rsvp">Katılım Formu</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./kina-photo.jpg" alt="Kına merasimi">
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr class="divider">
+
+      <section id="details" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Aileler</p>
+          <h2>Aile Bilgisi</h2>
+        </div>
+        <div class="paper family-card">
+          <div>
+            <h3>Pelin</h3>
+            <p>Hatice &amp; Mustafa Akalın’ın kıymetli kızları</p>
+          </div>
+          <div>
+            <h3>Musa</h3>
+            <p>Ayşe &amp; Recep Şahin’in değerli oğulları</p>
+          </div>
+        </div>
+
+        <div class="section-header mt">
+          <p class="section-eyebrow">Davet Metni</p>
+          <h2>Kına Gecesi</h2>
+        </div>
+        <p class="ceremony-text">“Nikâh törenimiz yurt dışında gerçekleşmiştir. Bu nedenle, sevdiklerimizle bir araya
+          geleceğimiz kına gecemiz, bu mutluluğu birlikte paylaşacağımız tek organizasyon olacaktır. Katılımınız bizleri
+          onurlandıracaktır.”</p>
+
+        <div class="paper info-box">
+          <p>🌙 Kına merasimi kadınlara özel olup,</p>
+          <p>kutlamamız saat 19.00 – 23.00 arasında,</p>
+          <p>tüm misafirlerimizin katılımıyla devam edecektir.</p>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section id="date" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Tarih &amp; Saat</p>
+          <h2>26 Mart 2026 • Perşembe</h2>
+          <p class="time-range">19.00 – 23.00</p>
+        </div>
+
+        <div class="countdown">
+          <div class="count-item"><span id="days">00</span><small>Gün</small></div>
+          <div class="count-item"><span id="hours">00</span><small>Saat</small></div>
+          <div class="count-item"><span id="minutes">00</span><small>Dakika</small></div>
+          <div class="count-item"><span id="seconds">00</span><small>Saniye</small></div>
+        </div>
+        <p class="countdown-message" id="countdownMessage"></p>
+      </section>
+
+      <hr class="divider">
+
+      <section id="location" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Konum</p>
+          <h2>Glory Wedding Venue De Luxe</h2>
+        </div>
+        <address class="paper address">Glory Wedding Venue De Luxe<br>Küçükbakkalköy Mahallesi<br>Vedat Günyol
+          Caddesi<br>Defne Sokak No: 1<br>Flora Residence<br>Ataşehir / İSTANBUL</address>
+        <div class="actions-row"><a class="btn" id="mapsButton" target="_blank" rel="noreferrer">Google Maps’te Aç</a>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section id="program" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Program Akışı</p>
+          <h2>Akşamın Ritmi</h2>
+        </div>
+        <div class="paper timeline">
+          <div class="timeline-item"><strong>19:00</strong><span>Karşılama</span></div>
+          <div class="timeline-item"><strong>20:00</strong><span>Kına Merasimi (Kadınlara özel)</span></div>
+          <div class="timeline-item"><strong>21:00</strong><span>Eğlence / Müzik</span></div>
+          <div class="timeline-item"><strong>23:00</strong><span>Kapanış</span></div>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section id="dresscode" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Dress Code</p>
+          <h2>Kına gecesi şıklığı</h2>
+          <p class="subtext">Bordo/altın tonları önerilir.</p>
+        </div>
+        <div class="badge-row">
+          <span class="badge">Bordo</span>
+          <span class="badge">Altın</span>
+          <span class="badge">Şık</span>
+          <span class="badge">Rahat</span>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section id="rsvp" class="section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Katılım Formu</p>
+          <h2>Katılım Formu</h2>
+        </div>
+        <form class="paper rsvp-form" id="rsvpForm" onsubmit="return false;">
+          <div class="form-row">
+            <label class="form-field"><span class="field-label">Ad Soyad</span><input type="text" name="fullName"
+                required autocomplete="name"><small class="helper">Lütfen tam adınızı yazınız.</small></label>
+            <label class="form-field"><span class="field-label">Telefon (opsiyonel)</span><input type="tel" name="phone"
+                autocomplete="tel"><small class="helper">Ör: +90 5xx xxx xx xx</small></label>
+          </div>
+          <div class="form-row">
+            <label class="form-field"><span class="field-label">Kişi Sayısı</span><select name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select></label>
+            <label class="form-field"><span class="field-label">Katılım Durumu</span><select name="status" required>
+                <option value="Geliyorum">Geliyorum</option>
+                <option value="Gelemiyorum">Gelemiyorum</option>
+              </select></label>
+          </div>
+          <label class="form-field"><span class="field-label">Not (opsiyonel)</span><textarea name="note"
+              rows="3"></textarea></label>
+          <p class="form-note">Bu form cihazınızda kayıtlıdır.</p>
+          <div class="form-actions"><a id="whatsappButton" class="btn primary" href="https://wa.me/905452094424"
+              target="_blank" rel="noopener noreferrer">WhatsApp ile Gönder</a></div>
+        </form>
+        <div class="toast" id="toast" role="status" aria-live="polite" aria-hidden="true">Teşekkürler! Katılım bilginiz
+          kaydedildi.</div>
+      </section>
+
+      <footer class="site-footer">
+        <p>💌 Not: Minik misafirlerimize tatlı uykular dileriz.</p>
+        <small>Pelin &amp; Musa</small>
+      </footer>
+    </div>
+  </main>
+
+  <!-- modal -->
+  <div id="rsvpModal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Kapat">×</button>
+      <h3>Katılım Onayı</h3>
+      <p id="modalSummary">Bilgiler kaydedildi.</p>
+      <div class="modal-actions"><button class="btn primary modal-ok">Tamam</button></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
