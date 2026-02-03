@@ -294,7 +294,7 @@ main {
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text);
+  color: var(--burgundy);
   margin-bottom: var(--space-2);
   font-weight: 600;
 }
